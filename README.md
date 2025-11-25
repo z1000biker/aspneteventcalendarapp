@@ -128,8 +128,8 @@ The application uses SQLite for data storage. The database is automatically crea
 
 ## License
 
-This is a proof-of-concept application for demonstration purposes.
+This is a proof-of-concept FULLY WORKING application for demonstration purposes.
 
 ## Author
 
-Created as a demonstration of ASP.NET Core capabilities including API development, calendar integration, and data validation.
+Created as a demonstration/educational aid of ASP.NET Core capabilities including API development, calendar integration, and data validation for my students.
