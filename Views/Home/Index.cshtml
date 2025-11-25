@@ -1,0 +1,92 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="hero-section">
+    <div class="hero-content">
+        <h1 class="display-3 fw-bold mb-4">Event Calendar</h1>
+        <p class="lead mb-5">A proof-of-concept ASP.NET Core web application demonstrating API handling, calendar functionality, and comprehensive data validation.</p>
+        <div class="d-flex gap-3 justify-content-center">
+            <a asp-controller="Events" asp-action="Index" class="btn btn-primary btn-lg px-5">
+                📅 View Calendar
+            </a>
+            <a href="/swagger" target="_blank" class="btn btn-outline-primary btn-lg px-5">
+                📚 API Documentation
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="features-section mt-5">
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="feature-card">
+                <div class="feature-icon">🔌</div>
+                <h3>RESTful API</h3>
+                <p>Full CRUD operations with proper HTTP status codes, validation, and error handling</p>
+                <ul class="feature-list">
+                    <li>GET /api/eventsapi - List all events</li>
+                    <li>POST /api/eventsapi - Create event</li>
+                    <li>PUT /api/eventsapi/{id} - Update event</li>
+                    <li>DELETE /api/eventsapi/{id} - Delete event</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="feature-card">
+                <div class="feature-icon">📆</div>
+                <h3>Calendar Functionality</h3>
+                <p>Interactive calendar with FullCalendar.js integration</p>
+                <ul class="feature-list">
+                    <li>Month, week, and day views</li>
+                    <li>Event creation and editing</li>
+                    <li>Color-coded categories</li>
+                    <li>Drag-and-drop support</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="feature-card">
+                <div class="feature-icon">✅</div>
+                <h3>Data Validation</h3>
+                <p>Multi-layer validation ensuring data integrity</p>
+                <ul class="feature-list">
+                    <li>Client-side validation</li>
+                    <li>Server-side validation</li>
+                    <li>FluentValidation rules</li>
+                    <li>Database constraints</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="tech-stack-section mt-5">
+    <h2 class="text-center mb-4">Technology Stack</h2>
+    <div class="row g-3">
+        <div class="col-md-3 col-sm-6">
+            <div class="tech-badge">ASP.NET Core 8.0</div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="tech-badge">Entity Framework Core</div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="tech-badge">FluentValidation</div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="tech-badge">FullCalendar.js</div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="tech-badge">SQLite</div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="tech-badge">Swagger/OpenAPI</div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="tech-badge">Bootstrap 5</div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="tech-badge">Razor Views</div>
+        </div>
+    </div>
+</div>
